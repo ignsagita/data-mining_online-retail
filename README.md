@@ -1,7 +1,7 @@
 # Data Mining for Online Retail Transactions data
 
 ## Overview
-This notebook represents a case study of using data mining techniques for customer-centric business intelligence for an online retailer. This is presented to help the business better understand its customers and therefore conduct customer-centric marketing, including:
+This notebook represents a case study of using data mining techniques for customer-centric business intelligence for an online retailer. This is presented to help the business better understand its customers, including:
 - Who are the most/least valuable customers to the business? What are the distinct characteristics of them?
 - Who are the most/least loyal customers, and how are they characterized?
 - What are customers’ purchase behaviour patterns? Which products/items have customers purchased together often? In what sequence were the products purchased?
@@ -22,7 +22,7 @@ The workflow includes:
 - Evaluate the clustering result using the **Silhouette score**
 
 ## Dataset
-The (Online Retail dataset from UCI)[https://archive.ics.uci.edu/dataset/352/online+retail] is a transactional data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
+The [Online Retail dataset from UCI](https://archive.ics.uci.edu/dataset/352/online+retail) is a transactional data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.
 Variable information:
 - **InvoiceNo**: Invoice number. Nominal, a 6-digit integral number uniquely assigned to each transaction. If this code starts with letter 'c', it indicates a cancellation. 
 - **StockCode**: Product (item) code. Nominal, a 5-digit integral number uniquely assigned to each distinct product.
